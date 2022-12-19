@@ -9,7 +9,7 @@ import { Usuario } from '../models/usuario';
 export class UsuarioService 
 {
 
-  private url = "http://localhost:3000/usuarios";
+  private url = "https://apirestuser-production.up.railway.app/usuarios";
 
   public usuarios: Usuario[];
 
